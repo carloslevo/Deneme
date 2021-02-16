@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"html:target/fail_html_report"},
         features = "@target/rerun.txt",
-        glue = "com/CRMLY/step_definitions"
+        glue = "com/CRMLY/stepdefinitions"
 
 )
 
