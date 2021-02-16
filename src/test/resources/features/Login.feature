@@ -26,7 +26,7 @@ Feature: Login Functionality
 
     Examples:
       | userType                     | password |
-      | hr3@cybertekschool.com       | UserUser |
+      | hr3@cybertekschool.com       | Wrong |
       | Wrong                        | UserUser |
       | Wrong                        | Wrong    |
       | helpdesk1@cybertekschool.com |          |

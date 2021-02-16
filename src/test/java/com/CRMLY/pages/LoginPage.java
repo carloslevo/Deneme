@@ -16,6 +16,9 @@ public class LoginPage extends BasePage{
     @FindBy(className = "login-btn")
     public WebElement loginButton;
 
+    @FindBy(className = "errortext")
+    public WebElement errorMessage;
+
 
     public void loginAsHR(){
         BrowserUtils.waitForClickablility(usernameInputBox,5);

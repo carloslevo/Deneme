@@ -40,11 +40,13 @@ public class LoginSteDefs {
 
     @When("User login with {string} and {string}")
     public void user_login_with_and(String username, String password) {
+        new LoginPage().login(username,password);
 
     }
 
     @Then("User should see {string} error message")
     public void user_should_see_error_message(String errorMessage) {
+        Assert.assertEquals("Verify error message", errorMessage, new LoginPage().errorMessage.getText());
     }
 
 
