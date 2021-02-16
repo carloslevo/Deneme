@@ -1,0 +1,14 @@
+Objectives:
+At the end of phase 2, all students should be able to :
+● Create basic BDD framework
+● Create, edit and complete basic Jira components like test, test set, test execution, bug,
+etc.
+● Automating smoke tests
+● Start building regression suite
+Sprint 3:
+During the first sprint, teams will:
+● Develop BDD test automation framework
+● Automate test cases created during the first phase
+● Create Jira tests for every test case in the BDD framework
+● Start automating smoke tests
+● Start creating regression suite
