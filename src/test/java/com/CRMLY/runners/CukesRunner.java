@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/CRMLY/step_definitions",
+        glue = "com/CRMLY/stepdefinitions",
         dryRun = false,
         tags = "@wip"
 )
